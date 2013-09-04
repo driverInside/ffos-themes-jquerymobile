@@ -24,7 +24,9 @@ H - Orange theme.
 
 I - Blue theme.
 
-J - Grey theme
+J - Grey theme.
+
+K - Light Grey theme.
 
 
 ###Examples:
