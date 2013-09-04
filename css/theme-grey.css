@@ -16,6 +16,9 @@
 	background-image: url('../images/pattern.png');
 	font-weight: bold;
 	text-shadow: 0 /*{j-bar-shadow-x}*/ -1px /*{j-bar-shadow-y}*/ 0 /*{j-bar-shadow-radius}*/ #000 /*{j-bar-shadow-color}*/;
+	-webkit-box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 2px 2px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 2px 2px rgba(50, 50, 50, 0.5);
 }
 .ui-bar-j,
 .ui-bar-j input,
@@ -94,6 +97,7 @@
 .ui-btn-hover-j:visited,
 .ui-btn-hover-j:hover,
 .ui-btn-hover-j a.ui-link-inherit {
+	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 	text-decoration: none;
 	color: 					#fff /*{j-bhover-color}*/;
 }
