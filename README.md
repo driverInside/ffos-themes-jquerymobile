@@ -29,5 +29,6 @@ J - Grey theme
 
 ###Examples:
 
-`<button data-icon="arrow-l" data-theme="i">Blue theme</button>`
-`<div data-role="page" data-theme="h"> ...`
+  `<button data-theme="i">Blue theme</button>`
+  
+  `<div data-role="page" data-theme="h"> ...`
