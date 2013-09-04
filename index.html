@@ -12,9 +12,10 @@
 	<link rel="stylesheet" href="css/jquery.mobile.structure-1.3.2.min.css" />
 	<link rel="stylesheet" href="css/jquery.mobile.theme-1.3.2.css" />
 	<!-- app styles -->
-	<link rel="stylesheet" type="text/css" href="css/theme-grey.css">
 	<link rel="stylesheet" type="text/css" href="css/theme-blue.css">
 	<link rel="stylesheet" type="text/css" href="css/theme-orange.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-grey.css">
+	<link rel="stylesheet" type="text/css" href="css/theme-light-grey.css">
 
 	<!-- jquerymobile.js -->
 	<script src="js/jquery-1.9.1.min.js"></script>
@@ -23,23 +24,31 @@
 </head>
 <body>
 
-<div data-role="page" data-theme="j">
+<div data-role="page" data-theme="k">
 
-	<div data-role="header" data-theme="j">
+	<div data-role="header" data-theme="k">
 		<h1>FF themes</h1>
 	</div><!-- /header -->
 
 	<div data-role="content">
-		<p>Page content goes here.</p>
-		<a href="#" data-role="button">Grey theme</a>
+		
+		<a href="#" data-role="button" data-theme="j">Grey theme</a>
 		<form>
     		<button data-icon="arrow-l" data-theme="i">Blue theme</button>
     		<input value="Orange theme" type="button" data-theme="h">
+    		<input value="Light Grey theme" type="button" data-theme="k">
 		</form>
+
+		<ul data-role="listview" data-inset="true" data-theme="d" data-divider-theme="k" data-count-theme="h">
+    		<li data-role="list-divider">Divider</li>
+    		<li><a href="index.html" data-theme="e">Inbox <span class="ui-li-count">12</span></a></li>
+    		<li><a href="index.html">Outbox <span class="ui-li-count">0</span></a></li>
+    		<li><a href="index.html">Sent <span class="ui-li-count">328</span></a></li>
+		</ul>
 
 	</div><!-- /content -->
 
-	<div data-role="footer" data-theme="j" data-position="fixed">
+	<div data-role="footer" data-theme="k" data-position="fixed">
 		<h4>Page Footer</h4>
 	</div><!-- /footer -->
 </div><!-- /page -->
