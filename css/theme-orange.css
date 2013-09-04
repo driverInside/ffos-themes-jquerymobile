@@ -131,6 +131,7 @@
 .ui-btn-hover-h:visited,
 .ui-btn-hover-h:hover,
 .ui-btn-hover-h a.ui-link-inherit {
+	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 	color: 					#fff /*{h-bhover-color}*/;
 }
 .ui-btn-down-h {
